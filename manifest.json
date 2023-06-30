@@ -1,0 +1,58 @@
+{
+    "name": "\"No Game | No Life\" - Theme",
+    "description": "\"No Game | No Life\" theme for Opera GX",
+    "developer": {
+        "name": "shuwiku"
+    },
+    "icons": {
+        "512": "icon-512.png"
+    },
+    "manifest_version": 3,
+    "mod": {
+        "schema_version": 1,
+        "payload": {
+            "background_music": [
+                "music/background-1.mp3"
+            ],
+            "theme": {
+                "dark": {
+                    "gx_accent": {
+                        "h": 299,
+                        "s": 100,
+                        "l": 80
+                    },
+                    "gx_secondary_base": {
+                        "h": 299,
+                        "s": 100,
+                        "l": 80
+                    }
+                },
+                "light": {
+                    "gx_accent": {
+                        "h": 299,
+                        "s": 100,
+                        "l": 80
+                    },
+                    "gx_secondary_base": {
+                        "h": 299,
+                        "s": 100,
+                        "l": 80
+                    }
+                }
+            },
+            "wallpaper": {
+                "dark": {
+                    "image": "wallpaper/wallpaper-1.png",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#ffffff"
+                },
+                "light": {
+                    "image": "wallpaper/wallpaper-1.png",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#00ff00"
+                }
+            }
+        }
+    },
+    "version": "1.0"
+}
